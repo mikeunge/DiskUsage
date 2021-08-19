@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8 BOM" standalone="yes"?>
+<config>
+     <limit>30</limit>
+	 <drive>C</drive>
+     <mail>
+		<server>smtp.yourserver.com</server>
+		<port>587</port>
+		<from>from@yourserver.com</from>
+		<to>to@yourstatus.com</to>
+		<credentials>
+			<username>username@yourserver.com</username>
+			<password>passw0rd</password>
+		</credentials>
+		<useHtml>true</useHtml>
+		<htmlTemplate>storageWarning.html</htmlTemplate>
+     </mail>
+	 <customer>
+		<name>Mustermann</name>
+		<server>Server1</server>
+	 </customer>
+</config>
